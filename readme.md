@@ -19,7 +19,7 @@ docker-compose -f "docker-compose.yml" up -d --build
 }
 ```
 
-3. Login by sending a POST Request to http://localhost:8000/login
+3. Login by sending a POST Request to http://localhost:5000/login
 
 ```json
 {
