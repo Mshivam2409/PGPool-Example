@@ -28,4 +28,4 @@ docker-compose -f "docker-compose.yml" up -d --build
 }
 ```
 
-4. PG-0 Assumes the primary database role. If you stop the PG-0 container manually, then PG-1 will take up the primary role and steps 3 and 4 will still run.
+4. PG-0 Assumes the primary database role. If you stop the PG-0 container manually, then PG-1 will take up the primary role and steps 3 and 2 will still run.
